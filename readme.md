@@ -51,6 +51,16 @@ Remalize uses a version of Jungian analysis of one's dream.
 Record dream -> make associations -> connect dream to waking life -> interpret ->
 ritualize   
 
+### Dream dictionaries
+We generally don't recommend using dream dictionaries, becasue dream symbols
+are unique to you. The exception here is for archetypes, which tend to have 
+common roles across the human race (ex: trickster, king, pauper, father, mother).
+Dream databases for archetypes can be useful to help you form associations that
+resonate with you. 
+
+But these are simply suggestions. If a 'father' means priest to you more than 
+it means the biological father, then go with what resonates. 
+
 References:
 https://www.famousscientists.org/7-great-examples-of-scientific-discoveries-made-in-dreams/
 https://en.wikipedia.org/wiki/Einstein%27s_Dreams
