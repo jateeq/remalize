@@ -51,6 +51,11 @@ Remalize uses a version of Jungian analysis of one's dream.
 Record dream -> make associations -> connect dream to waking life -> interpret ->
 ritualize   
 
+Interpretation notes:
+- Likely the message is going to be something you don't already know
+- Symbols in dreams respresent aspects of you, not the real counterparts
+- An interpretation that blames others is likely wrong
+
 ### Dream dictionaries
 We generally don't recommend using dream dictionaries, becasue dream symbols
 are unique to you. The exception here is for archetypes, which tend to have 
