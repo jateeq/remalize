@@ -46,6 +46,11 @@ Whether or not the interpretation is real is meaningless. If you can walk away
 with a more constructive perspective on aspects of your life, Remalize will 
 have succeeded. 
 
+### Method
+Remalize uses a version of Jungian analysis of one's dream. 
+Record dream -> make associations -> connect dream to waking life -> interpret ->
+ritualize   
+
 References:
 https://www.famousscientists.org/7-great-examples-of-scientific-discoveries-made-in-dreams/
 https://en.wikipedia.org/wiki/Einstein%27s_Dreams
