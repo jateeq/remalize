@@ -3,6 +3,7 @@
 """
 import os
 import sys
+import json
 import logging
 
 from typing import List, Dict
@@ -35,8 +36,8 @@ def main():
     else:
         dream = source
 
-    symbols = set(get_dream_symbols(dream))
-    print(symbols)
+    symbols = list(set(get_dream_symbols(dream)))
+    print(json.dumps(symbols))
     #associations = {symbol:get_associations(symbol) for symbol in symbols}
     #interpretation = get_interpretation(associations)
     #print_output(dream, associations, interpretation)
