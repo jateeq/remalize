@@ -35,10 +35,11 @@ def main():
     else:
         dream = source
 
-    symbols = get_dream_symbols(dream)
-    associations = {symbol:get_associations(symbol) for symbol in symbols}
-    interpretation = get_interpretation(associations)
-    print_output(dream, associations, interpretation)
+    symbols = set(get_dream_symbols(dream))
+    print(symbols)
+    #associations = {symbol:get_associations(symbol) for symbol in symbols}
+    #interpretation = get_interpretation(associations)
+    #print_output(dream, associations, interpretation)
 
 
 def get_dream_symbols(dream:str) -> List[str]:
@@ -52,9 +53,10 @@ def get_associations(symbol:str) -> List[str]:
 def get_interpretation(associations:Dict[str, List[str]]) -> str:
     return "I think I should take up guitar"
 
-def print_output(dream:str, associations:Dict[str, List[str]], 
-    interpretation:str) -> None:
+def print_output(dream:str, symbols: List[str], 
+    associations:Dict[str, List[str]], interpretation:str) -> None:
     print(dream)
+    print(symbols)
     print(associations)
     print(interpretation)
 

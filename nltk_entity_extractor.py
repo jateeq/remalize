@@ -1,4 +1,8 @@
+import nltk
+
 from typing import List
+
+
 
 from entity_extractor import EntityExtractor
 
@@ -10,5 +14,9 @@ class NLTKEntityExtractor(EntityExtractor):
     def __init__(self):
         self.parser = 'bla'
 
+    # TODO: package has dependencies:
+    # download: maxent_ne_chunker, averaged_perceptron_tagger, punkt, words
     def extract(self, text):
-        return ['sym_1', 'sym_2', 'sym_3']
+        tagged = nltk.pos_tag(nltk.word_tokenize(text))
+        tree = nltk.ne_chunk(tagged)
+        return [lf[0] for lf in tree.leaves() if lf[1]=='NN']
