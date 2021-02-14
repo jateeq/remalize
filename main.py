@@ -6,11 +6,12 @@ import sys
 import logging
 
 from typing import List, Dict
-from entity_extractor import EntityExtractor
+from nltk_entity_extractor import NLTKEntityExtractor
 
 logger = logging.getLogger()
 
 MIN_DREAM_TEXT_CHARS = 1
+
 
 def main():
     source = sys.argv[1]
@@ -41,8 +42,7 @@ def main():
 
 
 def get_dream_symbols(dream:str) -> List[str]:
-    #return EntityExtractor().extract(dream)    
-    return ['asc_1', 'asc_2', 'asc_3']
+    return NLTKEntityExtractor().extract(dream)    
 
 
 def get_associations(symbol:str) -> List[str]:
