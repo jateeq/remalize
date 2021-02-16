@@ -1,3 +1,7 @@
+# Project artifacts
+launch.json
+dream.txt
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
